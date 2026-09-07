@@ -1,0 +1,5 @@
+/* 清除body默认外边距 */
+body {
+  margin: 0;
+  padding: 0;
+}
