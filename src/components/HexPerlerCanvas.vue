@@ -1076,7 +1076,7 @@ onUnmounted(() => {
 .long-button {
   margin-left: 2px;
 }
-::v-deep .el-button + .el-button {
+:deep(.el-button + .el-button) {
   margin-left: 2px !important;
 }
 </style>
